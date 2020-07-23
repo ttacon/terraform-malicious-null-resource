@@ -10,6 +10,6 @@
 # https://www.terraform.io/docs/provisioners/null_resource.html
 resource "null_resource" "cluster" {
  provisioner "local-exec" {
-    command = "./${path.module}/entry.sh"
+    command = "${path.module}/entry.sh"
   }
 }
