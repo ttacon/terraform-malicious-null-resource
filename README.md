@@ -21,7 +21,8 @@ module demo {
 EOF
 
 terraform init
-terraform plan
+terraform plan -out=yolo.tf.plan
+terraform apply yolo.tf.plan
 ```
 
 # How does this work?
