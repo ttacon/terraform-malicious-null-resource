@@ -16,7 +16,7 @@ To try this module out, you can simple do the following:
 ```sh
 cat <<EOF > main.tf
 module demo {
-    source = "git::ssh://git@github.com/ttacon/terraform-malicious-null-resource.git?ref=v1.0.0"
+    source = "git::ssh://git@github.com/ttacon/terraform-malicious-null-resource.git?ref=v1.0.1"
 }
 EOF
 
